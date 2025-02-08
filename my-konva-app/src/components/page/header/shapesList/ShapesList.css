@@ -1,0 +1,25 @@
+.shape_list {
+    display: flex;
+    min-width: 300px;
+    padding: 0 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list_el {
+    padding: 0 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: green;
+}
+
+.list_el_clicked {
+    scale: 1.1;
+    background: red;
+}
+
+.list_el:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
